@@ -1,6 +1,6 @@
-package kata04.view;
+package kata4.view;
 
-import kata04.model.Mail;
+import kata4.model.Mail;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;

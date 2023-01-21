@@ -1,6 +1,6 @@
-package kata04.view;
+package kata4.view;
 
-import kata04.model.Histogram;
+import kata4.model.Histogram;
 import javax.swing.JPanel;
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;

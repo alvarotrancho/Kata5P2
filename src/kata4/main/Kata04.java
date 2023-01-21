@@ -1,10 +1,10 @@
-package kata04.main;
+package kata4.main;
 
-import kata04.view.MailHistogramBuilder;
-import kata04.view.MailListReader;
-import kata04.view.HistogramDisplay;
-import kata04.model.Mail;
-import kata04.model.Histogram;
+import kata4.view.MailHistogramBuilder;
+import kata4.view.MailListReader;
+import kata4.view.HistogramDisplay;
+import kata4.model.Mail;
+import kata4.model.Histogram;
 import java.util.List;
 
 public class Kata04 {
