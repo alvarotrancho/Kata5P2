@@ -1,13 +1,13 @@
-package kata4.main;
+package kata5p2.main;
 
-import kata4.view.MailHistogramBuilder;
-import kata4.view.MailListReader;
-import kata4.view.HistogramDisplay;
-import kata4.model.Mail;
-import kata4.model.Histogram;
+import kata5p2.view.MailHistogramBuilder;
+import kata5p2.view.MailListReader;
+import kata5p2.view.HistogramDisplay;
+import kata5p2.model.Mail;
+import kata5p2.model.Histogram;
 import java.util.List;
 
-public class Kata04 {
+public class kata5p2 {
 
     public static void main(String[] args) {
         String fileName = new String("email.txt");
