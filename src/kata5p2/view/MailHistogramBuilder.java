@@ -2,6 +2,7 @@ package kata5p2.view;
 
 import kata5p2.model.Mail;
 import kata5p2.model.Histogram;
+
 import java.util.List;
 
 public class MailHistogramBuilder extends Histogram{
@@ -13,5 +14,4 @@ public class MailHistogramBuilder extends Histogram{
         }     
         return histogram;
     }
-    
 }

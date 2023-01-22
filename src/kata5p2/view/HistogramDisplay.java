@@ -1,6 +1,7 @@
 package kata5p2.view;
 
 import kata5p2.model.Histogram;
+
 import javax.swing.JPanel;
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
@@ -35,9 +36,14 @@ public class HistogramDisplay extends ApplicationFrame {
     
     private DefaultCategoryDataset createDataset(){
         DefaultCategoryDataset dataset = new DefaultCategoryDataset();
+        int other  = 0; 
         for (String key : histogram.keySet()) {
-          dataset.addValue(histogram.get(key), "", key);
+            if(histogram.get(key)== 1) 
+                other++; 
+            else 
+                dataset.addValue(histogram.get(key), "", key);//nuevo
         }
+        dataset.addValue(other, "", "Others"); 
         return dataset;
     }
     
